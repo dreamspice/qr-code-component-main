@@ -55,7 +55,7 @@ body {
     height: auto;
 }
 
-h2 {
+h1 {
     margin-top: 20px;
     font-weight: 700;
     color: var(--dark-blue);
@@ -80,7 +80,7 @@ a {
     .qr-img > img {
         width: 250px;
     }
-    h2 {
+    h1 {
         font-size: 1.2rem;
     }
     .attribution {
@@ -88,4 +88,18 @@ a {
     }
   }
 
+  @media screen and (min-width: 481px) and (max-width: 1440px) { 
+    .container {
+      width: 350px;
+    }
+    .qr-img > img {
+        width: 300px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .attribution {
+        font-size: 1rem;
+    }
+  }
 
